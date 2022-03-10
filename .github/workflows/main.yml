@@ -18,18 +18,14 @@ jobs:
         
       - name: Cypress run in Electron
         uses: cypress-io/github-action@v2.9.7
-        with:
-          group: Electron
 
       - name: Cypress run in Chrome
         uses: cypress-io/github-action@v2.9.7
         with:
           browser: chrome
-          group: Chrome
       
       - name: Cypress run in Edge
         uses: cypress-io/github-action@v2.9.7
         with:
           browser: edge
-          group: Edge
 
