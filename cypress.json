@@ -1,7 +1,0 @@
-{
-    "baseUrl": "https://www.doc2us.com",
-    "defaultCommandTimeout": 10000,
-    "viewportHeight": 1080,
-    "viewportWidth": 1920,
-    "scrollBehavior": "center"
-}
